@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import 'ngx-toastr/toastr';
+
+.contenido3 {
+    display: block;
+    position: relative;
+    width: calc(100%);
+    height: auto;
+    padding: 15px 3px 3px;
+  }
+  .contenido3 label {
+    display: block;
+    position: absolute;
+    width: auto;
+    font-size: 0.75rem;
+    top: 5px;
+    left: 20px;
+    padding: 0 1em 0 1em;
+    border-radius: 20px;
+    color: #13233d;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13px;
+  }

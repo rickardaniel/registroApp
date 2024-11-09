@@ -1,0 +1,32 @@
+.mainScreen{
+
+    min-height: 100vh;
+    height: auto;
+    background-image: url(../assets/img/Panoramica-Liceo-de-Loja.jpg);
+    background-size: cover;
+    // filter: blur(3px); /* Adjust the blur radius as needed */
+    z-index: 1;
+
+
+}
+
+
+
+  .divSelect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-top:25%
+  }
+
+
+  .titleEfect{
+    text-shadow: horizontal-offset vertical-offset blur-radius color;
+    // text-shadow: 2px 2px 4px #888;
+    font-weight: bold;
+
+  }
+
+  .imgAuspiciante{
+    width: 120px; height: 50px; object-fit: scale-down;
+  }
